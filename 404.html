@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.14" />
+    <style>
+      :root {
+        --c-bg: #fff;
+      }
+
+      html.dark {
+        --c-bg: #22272e;
+      }
+
+      html,
+      body {
+        background-color: var(--c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme')
+      const systemDarkMode =
+        window.matchMedia &&
+        window.matchMedia('(prefers-color-scheme: dark)').matches
+
+      if (userMode === 'light') {
+        document.documentElement.dataset.theme = 'light'
+      } else if (userMode === 'dark' || systemDarkMode) {
+        document.documentElement.classList.toggle('dark', true)
+        document.documentElement.dataset.theme = 'dark'
+      }
+    </script>
+    <title>AixLeft</title><meta name="description" content="AixLeft的博客">
+    <link rel="stylesheet" href="/test/assets/css/styles.fa2cc33f.css">
+    <link rel="preload" href="/test/assets/js/runtime~app.a975850c.js" as="script"><link rel="preload" href="/test/assets/css/styles.fa2cc33f.css" as="style"><link rel="preload" href="/test/assets/js/178.8a59bc9c.js" as="script"><link rel="preload" href="/test/assets/js/app.2019a5ec.js" as="script">
+    <link rel="prefetch" href="/test/assets/js/guide_get-started.html.6e0761a9.js" as="script"><link rel="prefetch" href="/test/assets/js/get-started.html.33e02bc4.js" as="script"><link rel="prefetch" href="/test/assets/js/guide_index.html.39fa00ca.js" as="script"><link rel="prefetch" href="/test/assets/js/index.html.a71a7116.js" as="script"><link rel="prefetch" href="/test/assets/js/web_check.html.f7c074bb.js" as="script"><link rel="prefetch" href="/test/assets/js/web_index.html.9cfb26de.js" as="script"><link rel="prefetch" href="/test/assets/js/404.html.dad24b64.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="vp-theme-container" data-v-7a3eca82><main class="page" data-v-7a3eca82><div class="theme-default-content" data-v-7a3eca82><h1 data-v-7a3eca82>404</h1><blockquote data-v-7a3eca82>There&#39;s nothing here.</blockquote><a class="route-link" href="/test/" data-v-7a3eca82>Take me home</a></div></main></div><!--[--><!----><!--]--><!--]--></div>
+    <script src="/test/assets/js/runtime~app.a975850c.js" defer></script><script src="/test/assets/js/178.8a59bc9c.js" defer></script><script src="/test/assets/js/app.2019a5ec.js" defer></script>
+  </body>
+</html>
